@@ -1,0 +1,35 @@
+<!-- Header -->
+<div class="topSocialRow">
+	<div class="container">
+		<div class="wrapper">
+			{{widget('socialicons', 'socialNetworks', {
+				'googleplus': 'https://plus.google.com/',
+				'linkedin':'http://www.linkedin.com/company/',
+				'facebook': 'https://www.facebook.com/',
+				'twitter': 'https://twitter.com/'
+			})|raw}}
+			
+			{{widget('content', 'socialParagraph', {
+			content: "<p class='paragraph socialTextBox'>Call Us: 0123456789</p>"
+			})|raw}}
+		</div>
+	</div>
+</div>
+<header class="headerRow">
+	<div class="container">
+		<div class="wrapper">
+			{{widget('logo', 'headerLogo', {
+				"defaultlogo": asset('images/logo.svg')
+			})|raw}}
+
+			{{widget('companyname', 'headerCompanyname', {
+				"business": "profile"
+			})|raw}}
+
+			{{widget('extendednavigation', 'headernavigation', {
+				"align":"left"
+			})|raw}}
+		</div>
+	</div>
+</header>
+<!-- End Header -->

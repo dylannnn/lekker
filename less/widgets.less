@@ -1,0 +1,1159 @@
+// -----------------------------
+// #Table of Widgets
+// -----------------------------
+
+// ----------------------------------------
+// # 1 Header Section CSS
+//     - 1. Top Social Row
+//     - 2. Top Social Network Icons
+//     - 3. Logo
+//     - 4. Company
+//     - 5. Navigation
+//
+// # 2 Main Content Section CSS
+//     - 1. Content Widget CSS
+//     - 2. Contact Form Widget CSS
+//     - 3. Twitter Widget CSS
+//     - 4. Button Widget CSS
+//     - 5. Social Icons Widget CSS
+//     - 6. Youtube Widget CSS
+//     - 7. Page Title Widget CSS
+//     - 8. Map Widget CSS
+//     - 9. Profile Widget CSS
+//     - 10. Image Widget CSS
+// ----------------------------------------
+
+
+// -----------------------------
+// # 1 Header Section CSS
+// -----------------------------
+// ----------------------
+// Fontawesome Icons set
+// ----------------------
+
+.icon {
+	&:before {
+		font-family: 'FontAwesome', sans-serif;
+	}
+}
+.icon--twitter {
+	&:before {
+		content: "\f099";
+	}
+}
+.icon--facebook {
+	&:before {
+		content: "\f09a";
+	}
+}
+.icon--linkedin {
+	&:before {
+		content: "\f0e1";
+	}
+}
+.icon--googleplus {
+	&:before {
+		content: "\f0d5";
+	}
+}
+.icon--rss {
+	&:before {
+		content: "\f09e";
+	}
+}
+.icon--youtube {
+	&:before {
+		content: "\f167";
+	}
+}
+
+
+// ----------------------
+// 1. Top Social Row
+// ----------------------
+
+.topSocialRow {
+	.container {
+		.wrapper {
+			.widget {
+				.socialicons {
+					.social-list {
+						.social-item {}
+					}
+				}
+				.content {
+					.socialTextBox {}
+				}
+			}
+		}
+	}
+}
+
+// ---------------------
+// Social Network Icons
+// ---------------------
+
+.socialicons {
+	a {
+		background-color: transparent;
+		&:hover {
+			background-color: transparent;
+			text-decoration: none;
+		}
+		color: inherit;
+	}
+	.social-list {
+		.social-item {
+			display: inline-block;
+			.social-link {
+				color: red;
+				&:hover {
+					color: purple;
+				}
+				.social-name {
+					.hide;
+				}
+			}
+		}
+	}
+}
+
+// -------------------
+// Header Row Style
+//	- Logo
+//	- Company name
+//	- Navigation
+// -------------------
+
+.headerRow {
+	.container {
+		.wrapper {
+			.widget {
+				// Logo
+				.logo {
+					.logo-link {
+						.logo-image {}
+					}
+				}
+				// Company name
+				.companyname {
+					.company-link {}
+				}
+				// Navigation
+				.extendednavigation {
+					.navigation-toggle {}
+					.navigation-body {
+						.navigation-list {
+							.navigation-item {
+								&.selected {}
+								.item-name {}
+								&.folder {
+									.item-name {}
+									.navigation-list {
+										.navigation-item {
+											.item-name {
+												&.selected {
+
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// -----------------------------
+// # 2 Main Content Section CSS
+// -----------------------------
+
+// ----------------------
+// Content Widget CSS
+// ----------------------
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+
+}
+
+small, .small {
+
+}
+
+u {
+	
+}
+
+i {
+
+}
+
+strong {
+
+}
+
+span {
+
+}
+
+blockquote {
+	&:before {
+	
+	}
+	&:after {
+	
+	}
+}
+
+pre {
+
+}
+
+code {
+
+}
+
+a {
+	
+	&:hover {
+	
+	}
+}
+
+p {
+	
+}
+
+ul {
+	
+	li {
+	
+	}
+}
+
+ol {
+	
+	li {
+	
+	}
+}
+
+// Content widget
+
+.content {
+	
+}
+
+// Page Title CSS
+
+.pagetitle {
+	h1 {}
+}
+
+// Line Widget CSS
+
+.line {
+	hr.rule {
+	
+	}
+}
+
+// ---------------------------
+// Contact Form Widget CSS
+// ---------------------------
+
+.contactform {
+	form, .form {
+		.fieldset {
+			legend, .legend {
+			
+			}
+			
+			.form-body {
+				.form-group {
+					.label {
+						&.label--email {}
+						&.label--message {}
+					}
+					.input {
+						&.input--email {}
+					}
+					.textarea {
+						&.textarea--message {}
+					}
+					.button {
+						&.button--submit {}
+					}
+				}
+			}
+		}
+	}
+}
+
+// ----------------------
+// Twitter Widget CSS
+// ----------------------
+
+.twitter {
+	ul {
+		&.tweet-list {
+			li {
+				&.tweet-item {
+					.avatar {
+						.avatar-link {
+							.avatar-image {}
+						}
+					}
+					.tweet-wrap {
+						.account-link {
+							.account-name {}
+						}
+						.tweet-content {}
+						.tweet-metadata {
+							.timestamp {}
+							.via {}
+							a {}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// ---------------------
+// Button Widget CSS
+// ---------------------
+
+.buttonwidget {
+	.button {}
+}
+
+// ----------------------
+// Youtube Widget CSS
+// ----------------------
+
+.youtube {
+	.embed-wrap {
+		.iframe {}
+	}
+}
+
+// ------------------
+// Map Widget CSS
+// ------------------
+
+.map {
+	.embed-wrap {
+		.gm-style {}
+	}
+}
+
+// -------------------------
+// Profile Widget CSS
+//   - Strapline
+//   - Description
+//   - Address
+//   - Email
+//   - Phone
+//   - Business Name
+//   - Copyright
+//   - Twitter
+//   - Signup Form
+//   - Social Icons
+// ------------------------
+
+.profile {
+	.companystrapline {
+		.strapline {}
+	}
+	.companydescription {
+		.description {}
+	}
+	.companyaddress {
+		.vcard {
+			.address {
+				.address-line {}
+			}
+		}
+	}
+	.emailaddress {
+		.email {}
+	}
+	.companyphone {
+		.phone-number-link {
+			.phone-number {}
+		}
+	}
+	.companybusiness {
+		.business {}
+	}
+	.companycopyright {
+		.copyright {}
+	}
+	.twitter {
+		p {}
+	}
+	.signupform {
+		.form {
+			.legend {}
+			.form-body {
+				.form-group {
+					.label {}
+					.input {}
+					.button {}
+				}
+			}
+		}
+	}
+	.socialicons {
+		.social-list {
+			.social-item {
+				.social-link {
+					.social-name {}
+				}
+			}
+		}
+	}
+}
+
+
+
+// ---------------------
+// Image Widget CSS
+// ---------------------
+
+.imagewidget {
+	.figure {
+		.image-link {
+			.image {}
+		}
+		.caption {
+			.image-title {}
+			.image-description {}
+		}
+	}
+}
+
+// ----------------------
+// Paypal Widget CSS
+// ----------------------
+
+.paypalbuynow {
+	form {
+		.button {}
+	}
+}
+
+
+// ---------------------
+// 12. Tweet Widget CSS
+// ---------------------
+
+.tweet {
+	.button {}
+}
+
+
+// -----------------------
+// 13. Dropbox Widget CSS
+// -----------------------
+
+.dropbox {
+	.button {}
+	.label {}
+}
+
+
+// -----------------------------
+// 14. Click To Call Widget CSS
+// -----------------------------
+
+.clicktocall {
+	.phone-number-link {
+		.label {}
+	}
+}
+
+
+// -----------------------------
+// 15. Gallery Widget CSS
+// -----------------------------
+
+.gallery {
+	.gallery-list {
+		.gallery-item {
+			&.square {}
+			.figure {
+				.image-link {
+					.image {}
+				}
+				.caption {
+					.image-title {}
+					.image-description {}
+				}
+			}
+		}
+	}
+}
+
+
+// -------------------------------------
+// 16. Responsive Slide Show Widget CSS
+// -------------------------------------
+
+.responsiveslideshow {
+	.slides-list {
+		&.cover {}
+		.slide-item {
+			.figure {
+				.image-link {
+					.image {}
+				}
+				.caption {
+					.image-title {}
+					.image-description {}
+				}
+			}
+			&.current {}
+		}
+	}
+	.slide-navigation {
+		.button {}
+		.previous-button {}
+		.pause-button {}
+		.next-button {}
+	}
+	.slide-pagination {
+		.pagination-list {
+			.pagination-item {
+				&.selected {}
+			}
+		}
+	}
+}
+
+
+// ---------------------------
+// 17. Signup Form Widget CSS
+// ---------------------------
+
+.signupform {
+	.form {
+		.fieldset {
+			.legend {}
+			.form-body {
+				.form-group {
+					.label {}
+					.input {}
+					.button {}
+				}
+			}
+		}
+	}
+}
+
+
+// ------------------------------
+// 18. Blog Post List Widget CSS
+// ------------------------------
+
+.blogpostlist {
+	.post-items {
+		.post-article {
+			.post-image {
+				.image-link {
+					.image {}
+				}
+			}
+			.post-content {
+				.post-header {
+					.post-title {
+						.title-link {}
+					}
+				}
+				.post-excerpt {
+					p {}
+					.read-more {}
+				}
+			}
+			.post-footer {
+				.time-stamp {}
+			}
+		}
+	}
+	.post-list-footer {
+		.post-pagination {
+			.pagination-list {
+				.pagination-item {
+					.button {}
+					.control-text {}
+					.icon--previous {
+						.control-text;
+					}
+					.icon--next {
+						.control-text;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+// ------------------------------
+// 19. Blog Post Widget CSS
+// ------------------------------
+
+.blogpost {
+	.post-article {
+		.post-image {
+			.iamge-link {
+				.image {}
+			}
+		}
+		.post-content {
+			.post-header {
+				.post-title {}
+			}
+			.post-body {
+				p {}
+			}
+		}
+		.post-footer {
+			.timestamp {}
+			.post-attributes {
+				.post-category {
+					.category-title {}
+					.category-link {}
+				}
+				.post-tags {
+					.tags-title {}
+					.tag-list {
+						.tag-item {
+							.tag-link {}
+						}
+					}
+				}
+			}
+			.sharing-links {
+				.network-item {
+					.button {}
+					.icon {}
+				}
+			}
+		}
+	}
+}
+
+
+
+// ---------------------------
+// 20. Blog Search Widget CSS
+// ---------------------------
+
+.blogsearch {
+	.form {
+		.fieldset {
+			.legend {}
+			.form-body {
+				.form-group {
+					.label {}
+					.input--search {}
+					.button {}
+				}
+			}
+		}
+	}
+}
+
+
+// ---------------------------
+// 21. Menu Sections Widget CSS
+// ---------------------------
+
+.menusections {
+	.menusections-body {
+		.menusections-list {
+			.menusections-item {
+				.menu-item-name {}
+			}
+		}
+	}
+}
+
+// ---------------------------
+// 22. Menu Widget CSS
+// ---------------------------
+
+.menu {
+	//section
+	.menu-section {
+		//header
+		.section-header {
+			//h2
+			.section-title {}
+			.section-description {}
+		}
+		.section-body {
+			.menu-items {
+				&.even {}
+				//menu subsection
+				&.odd {}
+				.menu-item {
+					//article
+					.item-article {
+						.item-image {
+							.image-link {
+								.image {}
+							}
+						}
+						.item-content {
+							.item-header {
+								.item-title {}
+								.item-price {}
+							}
+							.item-description {
+								p {}
+							}
+							.item-footer {
+								//h4
+								.item-subtitle {}
+								.item-details {}
+								//ul
+								.dietary-list {
+									.icon {}
+									.icon--vegetarian {}
+									.icon--glutenfree {}
+									.icon--vegan {}
+									.icon--nutfree {}
+									.icon--dairyfree {}
+									.dietary-item {}
+								}
+							}
+						}
+					}
+				}
+				//featured
+				.menu-item--featured {
+				
+				}
+			}
+			//menu subsection
+			.menu-subsection {
+				.menu-section--subsection {}
+				.menu-section--featured {}
+			}
+		}
+		.section-footer {}
+	}
+}
+
+
+// ---------------------------
+// 23. Ecommerce Products List Widget CSS
+// ---------------------------
+
+.ecomproductslist {
+	//section
+	.listing-section {
+		.listing-header {
+			//h2
+			.listing-title {}
+			.product-filters {
+				//form
+				.form {
+					.fieldset {
+						.legend {}
+						.form-body {
+							.form-group {
+								.label {}
+								.label--search {}
+								.label--filter
+								.input {}
+								.input--search {}
+								.button {}
+								.button--submit {}
+								.select-wrap {
+									.select {
+										option {}
+									}
+									.select--filter
+								}
+							}
+						}
+					}
+					.fieldset--search {}
+					.fieldset--filters {}
+				}
+			}
+			.listing-order {}
+			
+		}
+		.listing-body {
+			//ul
+			.product-list {
+				.product-item {
+					//article
+					.product-item-article {
+						.product-item-image {
+							.image-link {}
+							.image {}
+							.image--thumb {}
+						}
+						//header
+						.product-item-details {
+							//h3
+							.product-item-title {
+								.title-link {}
+							}
+							.product-item-price
+						}
+					}
+				}
+			}
+		}
+		.listing-footer {
+			.listing-pagination {
+				//ul
+				.pagination-list {
+					.pagination-item {
+						&.current {}
+						.button {}
+						.button--pagination {}
+					}
+				}
+			}
+		}
+	}
+}
+// ---------------------------
+// 24. Ecommerce Products Widget CSS
+// ---------------------------
+
+.ecomproduct {
+	textarea {}
+	//article
+	.product-article {
+		.product-images {
+			.product-image {
+				.image-link {
+					.image {}
+					.image--current {}
+				}
+			}
+			//ul
+			.product-gallery {
+				.gallery-item {
+					//a
+					.image-button {
+						.image {}
+						.image--thumb {}
+					}
+				}
+			}
+		}
+		.product-content {
+			.product-header {
+				.product-title {}
+				.product-price {}
+			}
+			.product-body {}
+			.product-actions {
+				.form {
+					.fieldset {
+						.legend {}
+						.form-body {
+							.form-group {
+								.label {}
+								.label--variation {}
+								.select-wrap {
+									.select {
+										option {}
+									}
+									.select--variation {}
+								}
+							}
+						}
+					}
+					.form-group {
+						.button {}
+						.icon {}
+						.icon--add {}
+					}
+				}
+				.view-basket-wrap {
+					.button {}
+					.icon {}
+					.icon--baeket {}
+				}
+			}
+			.product-attributes {
+				.product-tags {
+					.tags-title {
+						span {}
+					}
+					.tag-list {
+						.tag-item {
+							.tag-link {}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// ---------------------------
+// 25. Ecommerce Basket Widget CSS
+// ---------------------------
+
+.ecombasket {
+	.basket-toggle {
+		.item-count
+	}
+	.button {}
+	.icon {}
+	.icon--basket {}
+	.basket-body {
+		.basket-list {
+			.basket-item {
+				.baeket-item-image {
+					.image-link {
+						.image {}
+						.image--thumb {}
+					}
+				}
+				.baeket-item-details {
+					.basket-item-name {}
+					.item-quantity {}
+					.basket-item-price {}
+				}
+				.item-remove {}
+				.button {}
+				.icon {}
+				.icon--remove {}
+			}
+		}
+		.basket-footer {
+			//h4
+			.basket-total {
+				.total-number {}
+			}
+			.view-basket {}
+			.button {}
+		}
+	}
+}
+// ---------------------------
+// 26. Ecommerce Basket Summary Widget CSS
+// ---------------------------
+
+.ecombasketsummary {
+	//section
+	.summary-section {
+		.summary-title {}
+		.table {}
+		.form {}
+		table {
+			tbody {
+				tr {
+					th {}
+					td {
+						p {}
+					}
+				}
+			}
+		}
+		.summary-table {
+			//tbody
+			.summary-bod {
+				.table-row {
+					.cell {}
+					.cell--header {}
+					.cell--image {
+						.summary-item-link {
+							.image {}
+							.image--thumb {}
+						}				
+					}
+					.cell--title {
+						.summary-item-title {
+							a {}
+						}
+					}
+					.cell--quantity {
+						.quantity-wrap {
+							.button {}
+							.button--quantity {}
+							.quantity-minus {}
+							.quantity-plus {}
+							.quantity-field {}
+						}
+					}
+					.cell--price {}
+					.cell--total {}
+				}
+				.table-row--heading {}
+				.table-row--order-total {
+					.cell--order-total {
+						.order-total {
+							.total-value {}
+						}
+					}
+				}
+			}
+		}
+		.summary-form {
+			input {}
+			.button {}
+			.button-submit {}
+		}
+	}
+}
+
+// ---------------------------
+// 27. Ecommerce Categories List Widget CSS
+// ---------------------------
+
+.ecomcategorieslist {
+	.category-list-body {
+		.category-list {
+			.category-item {
+				.category-link {}
+			}
+		}
+	}
+}
+
+// ---------------------------
+// 28. Ecommerce Feature Products Widget CSS
+// ---------------------------
+.ecomfeaturedproducts {
+	.listing-section {
+		.listing-header {
+			.listing-title {}
+		}
+		.listing-body {
+			.product-list {
+				.product-item {
+					.product-item-article {
+						.product-item-image {
+							.image-link {
+								.image {}
+								.image--thumb {}
+							}
+						}
+						.product-item-details {
+							.product-item-title {}
+							.product-item-price {}
+						}
+					}
+				}
+			}
+		}
+	}
+	.listing-section--featured {}
+}
+
+// ---------------------------
+// 29. Sound Cloud Widget CSS
+// ---------------------------
+
+.soundcloud {
+	.embed-wrap {
+		iframe {}
+	}
+	.embed-wrap--audio {}
+}
+
+
+// ---------------------------
+// 30. Facebook Comments Widget CSS
+// ---------------------------
+
+.facebookcomments {
+	.embed-wrap {
+		.fb-comments {}
+	}
+	.embed-wrap--comments {}
+}
+
+
+// ---------------------------
+// 31. Facebook Like Widget CSS
+// ---------------------------
+
+.facebooklike {
+	iframe {}
+}
+
+
+// ---------------------------
+// 32. Donation Widget CSS
+// ---------------------------
+
+.donation {
+	.embed-wrap {
+		iframe {}
+	}
+	.embed-wrap--donation {}
+}
+
+
+// ---------------------------
+// 33. Linkedin Company Profile Widget CSS
+// ---------------------------
+
+.linkedincompanyprofile {
+	.embed-wrap {}
+	.embed-wrap--linkedin {}
+}
+
+
+// ---------------------------
+// 34. Linkedin Profile Widget CSS
+// ---------------------------
+
+.linkedinprofile {
+	.embed-wrap {}
+	.embed-wrap--linkedin {}
+}
+
+// ---------------------------
+// 35. Yelp Preview Widget CSS
+// ---------------------------
+
+.yelpreview {
+	.yelp-title {}
+	.review-list {
+		.review-item {
+			.review-article {
+				.review-header {
+					.review-title {
+						.author-label {}
+						.review-author {}
+					}
+					.review-rating {
+						img {}
+					}
+				}
+				.review-excerpt {
+					.review-text {}
+					.review-link {}
+				}
+				.review-footer {
+					.timestamp {}
+				}
+			}
+		}
+	}
+}
+

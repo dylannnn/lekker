@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html class="no-js" lang="{{ page.seoLang }}">
+
+<head>
+	{% include 'includes/head.twig' %}
+	
+    {% include basekit.headScript %}
+	{% include "includes/script-head.twig" %}
+</head>
+<body class="body {{ page.backgroundClass }}">
+
+    {% block content %}
+    {% endblock %}
+
+    {% include basekit.bodyScript %}
+	{% include "includes/script-body.twig" %}
+</body>
+</html>

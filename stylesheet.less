@@ -1,0 +1,76 @@
+// --------------------
+// Basic main styles
+// --------------------
+
+// -----------------------------
+// #Table of Contents
+// -----------------------------
+
+// 1. # Basekit foundation LESS Includes
+// 2. # Custom Style
+
+// -------------------------------------------------
+//  Color Swatches and Font Swatch are setting from 
+//  metadata.json file
+// -------------------------------------------------
+
+// -----------------------------
+//	Colour Swatches
+// -----------------------------
+//	"color1": == Background
+//	"color2": == Contrast colour
+//	"color3": == Button colour
+//	"color4": == Title colour
+//	"color5": == Paragraph colour
+//	"color6": == Nav text colour
+//	"color7": == Header BG colour
+// -----------------------------
+
+
+// -----------------------------
+//	Font Swatches
+// -----------------------------
+//	"font1":  == Heading 1
+//	"font2":  == Heading 2
+//	"font3":  == Heading 3
+//	"font4":  == Heading 4
+//	"font5":  == Paragraph
+//	"font6":  == Navigation Text
+//	"font7":  == Buttons
+//	"font8":  == Feature Title
+//	"font9":  == Feature Subtitle
+//	"font10": == Logo
+// -----------------------------
+
+
+// ---------------------------------------
+// 1. # Basekit foundation LESS Includes
+// ---------------------------------------
+
+// BK LESS Framework
+@import "@{templateCommon}/basekit-bootstrap.less";
+
+// Widgets CSS
+@import "@{templateLocal}/less/widgets.less";
+
+// Multi-devices responsive support
+@import "@{templateLocal}/less/global.less";
+@import "@{templateLocal}/less/desktop.less";
+@import "@{templateLocal}/less/tablet.less";
+@import "@{templateLocal}/less/mobile.less";
+
+// Mixins
+// ------
+.gradient (@startColor: #f4f4f4, @endColor: #fff) {
+	background-color: @startColor;
+	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+	background: -webkit-linear-gradient(top, @startColor, @endColor);
+	background: -moz-linear-gradient(top, @startColor, @endColor);
+	background: -ms-linear-gradient(top, @startColor, @endColor);
+	background: -o-linear-gradient(top, @startColor, @endColor);
+}
+
+
+// ---------------------------------------
+// 2. # Custom Style
+// ---------------------------------------

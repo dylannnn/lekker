@@ -1,0 +1,35 @@
+<footer class="footer">
+	<div class="container clickToCall hide-desktop-tablet">
+		<div class="profile-content">
+			{{widget('clicktocall', 'clickToCall', {
+				'phoneText': 'Call Now',
+				'fontSize': 18,
+				'align': 'widget-align-center'
+			})|raw}}
+		</div>
+	</div>
+	<div class="container contact">
+		<div class="profile-content">
+			{{widget('content', 'footerContact', {
+				content: "<p class='paragrapg footerText'><span>{{COMPANY}}</span><span >{{ADDRESS}}</span><span>{{CITY}}, {{STATE}} {{POSTCODE}}</span><span >{{PHONE}}</span><span><a href='{{EMAIL}}'>{{EMAIL}}</a></span></p>"
+			})|raw}}
+		</div>
+	</div>
+	<div class="container social">
+		<div class="profile-content">
+			{{widget('socialicons', 'footerSocialNetworks', {
+				'googleplus': 'https://plus.google.com/',
+				'linkedin':'http://www.linkedin.com/company/',
+				'facebook': 'https://www.facebook.com/',
+				'twitter': 'https://twitter.com/'
+			})|raw}}
+		</div>
+	</div>
+	<div class="container copyright">
+		<div class="profile-content">
+			{{widget('content', 'footerCopyright', {
+			content: "<p class='paragraph copyRight'><a href='{{PoweredByText}}'>{{PoweredByText}}</a> | <a href='{{PrivacyPolicyText}}'>{{PrivacyPolicyText}}</a></p>"
+			})|raw}}
+		</div>
+	</div>
+</footer>
